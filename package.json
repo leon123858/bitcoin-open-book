@@ -1,0 +1,20 @@
+{
+	"name": "bitcoin-open-book",
+	"version": "0.0.1",
+	"description": "a Chinese bitcoin core source code document",
+	"scripts": {
+		"format": "autopep8 --in-place --recursive .",
+		"freeze": "conda list -e > requirements.txt ",
+		"deploy": "npm run format && jupyter-book build ./"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/leon123858/bitcoin-open-book.git"
+	},
+	"author": "lab408",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/leon123858/bitcoin-open-book/issues"
+	},
+	"homepage": "https://github.com/leon123858/bitcoin-open-book#readme"
+}
